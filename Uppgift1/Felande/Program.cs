@@ -12,7 +12,7 @@ namespace Felande
         /// </summary>
         /// <param name="args"></param>
         static void Main(string[] args)
-        { 
+        {
             Console.WriteLine("Hej, välkommen till uppgift 1!");
             Console.WriteLine("Tryck på en knapp för att fortsätta...");
             Console.ReadKey();
@@ -23,7 +23,7 @@ namespace Felande
             Console.WriteLine($"Här ser du en sträng representerat av variablen 'namn': {namn}");
             Console.WriteLine("Tryck på en knapp för att fortsätta...");
             Console.ReadKey();
-            
+
             bool sant = false;
 
             Console.WriteLine();
@@ -31,7 +31,7 @@ namespace Felande
             Console.WriteLine("Tryck på en knapp för att fortsätta...");
             Console.ReadKey();
 
-          
+
 
             DateTime datum = DateTime.Now;
 
@@ -55,4 +55,6 @@ namespace Felande
 
             Console.ReadKey();
         }
+    }
+
 }
