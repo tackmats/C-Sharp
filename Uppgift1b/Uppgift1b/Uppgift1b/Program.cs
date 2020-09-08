@@ -22,7 +22,6 @@ namespace Uppgift1b
             bool b;
             string sant, input1, input2;
 
-
             //1. tilldela variabel i värdet 10
             //Kod här
             i = 10;
@@ -34,8 +33,6 @@ namespace Uppgift1b
             //3. Addera 1 till variabeln "l" mha inkrement operatorn.
             //Kod här
             l++;
-
-
 
             //4. Använd compound assignment för att multiplicera värdet av variabel "l" med 2
             //Kod här
@@ -49,9 +46,8 @@ namespace Uppgift1b
            
             //6. Skriv ut värdet av variabeln i konsolen. Talet 22 bör skrivas ut
             //Kod här
-            i = 22;
-            Console.WriteLine(i);
-
+            
+           Console.WriteLine(i);
 
             //7. Tilldela variabeln "f" värdet 3.14
             //Kod här
@@ -70,7 +66,6 @@ namespace Uppgift1b
             //10. Använd compound assignment för att multiplicera värdet av variabel "d" med 3
             //Kod här
             d *= 3;
-
 
             //11. Använd explicit konvertering för att tilldela "i" värdet av "d" modulo 5 (restvärdet)
             //Kod här
@@ -101,36 +96,29 @@ namespace Uppgift1b
 
             b = false;
 
-
             //16. Använd en hjälp klass för att konvertera 
             //och tilldela variabeln "sant" värdet av variabeln "b"
             //Kod här
 
             sant = Convert.ToString(b);
 
-
-
             //17. Skriv ut värdet av variabeln "sant" i konsolen. Bör vara False.
             //Kod här
 
             Console.WriteLine(sant);
 
-
             //18. Skriv ut till konsolen texten: Ange ett heltal:
             //Kod här
             Console.WriteLine("Ange ett heltal:");
-
 
             //19. Läs in ett heltal från konsolen tilldela värdet till variabel "input1"
             //Kod här       
 
             input1 = Console.ReadLine();
 
-
             //20. Skriv ut till konsolen texten: Ange ett annat heltal:
             //Kod här
             Console.WriteLine("Ange ett annat heltal:");
-
 
             //21. Läs in ett annat heltal från konsolen tilldela värdet till variabel "input2"
             //Kod här
@@ -143,14 +131,11 @@ namespace Uppgift1b
 
             tal1 = int.Parse(input1);
 
-
             //23. Använd datatypen ints Parse funktion för att konvertera och tilldela 
             //värdet av "input2" till variabeln "tal2"
             //Kod här
 
             tal2 = int.Parse(input2);
-
-
 
             //24. På en kod-rad skriv ut i konsolen mha string interpolation resultatet man 
             //får av att multiplicera "tal1" och "tal2" med varandra.
@@ -158,9 +143,8 @@ namespace Uppgift1b
             //Produkten av talen 2 och 10 är: 20
             //Kod här
 
-            string s = $"Produkten av {tal1} och {tal2} är {tal1 * tal2}";
-            Console.WriteLine(s);
-             
+            Console.WriteLine ($"produkten av {tal1} och {tal2} är {tal1 * tal2} ");
+                         
             Console.ReadLine();
         }
     }
